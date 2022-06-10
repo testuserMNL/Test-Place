@@ -72,7 +72,7 @@ function winnercheck() {
     } else if (
         document.getElementById('btn3B').value==Player &&
         document.getElementById('btn6B').value==Player &&
-        document.getElementById('btn7B').value==Player 
+        document.getElementById('btn9B').value==Player 
     )
     {
         Win(3, 6, 9);
